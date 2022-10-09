@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { DonaraddComponent } from './donaradd/donaradd.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DonaraddComponent
   ],
   imports: [
     BrowserModule,
