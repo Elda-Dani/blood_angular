@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { SearchdonorComponent } from './searchdonor/searchdonor.component';
 import { DeletedonorComponent } from './deletedonor/deletedonor.component';
 import { RouterModule, Routes } from '@angular/router';
+import { ViewallComponent } from './viewall/viewall.component';
 
 
 const appRoutes:Routes=[
@@ -21,6 +22,9 @@ const appRoutes:Routes=[
 },
 {
   path:"delete",component:DeletedonorComponent
+},
+{
+  path:"viewall",component:ViewallComponent
 }
 
 
@@ -31,7 +35,8 @@ const appRoutes:Routes=[
     DonaraddComponent,
     NavbarComponent,
     SearchdonorComponent,
-    DeletedonorComponent
+    DeletedonorComponent,
+    ViewallComponent
   ],
   imports: [
     BrowserModule,
