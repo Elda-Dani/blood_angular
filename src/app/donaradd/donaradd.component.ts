@@ -23,7 +23,7 @@ emailid=""
 
 readValue=()=>{
   let data={
-  "name":this.name,
+"name":this.name,
 "bloodGroup":this.bloodGroup,
 "dob":this.dob,
 "lastDonation":this.lastDonation,

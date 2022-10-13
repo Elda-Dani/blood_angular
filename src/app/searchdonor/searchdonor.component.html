@@ -9,7 +9,7 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
         <label for="" class="form-label">Blood Group</label>
-        <select name="" id="" class="form-control">
+        <select name="bloodGroup" [(ngModel)]="bloodGroup" id="" class="form-control">
             <option value="select">-----select-----</option>
             <option value="AB+ve">AB+ve</option>
             <option value="AB-ve">AB-ve</option>
@@ -22,7 +22,7 @@
         </select>
         </div>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-        <button class="btn btn-danger">Search</button>
+        <button class="btn btn-danger" (click)="readValues()">Search</button>
         <br><br>
     </div>
    

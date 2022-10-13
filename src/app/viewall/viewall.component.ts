@@ -21,9 +21,7 @@ this.donorData=data
     )
   }
   
-  donorData:any = [
-   
-  ]
+  donorData:any = []
   ngOnInit(): void {
   }
 
