@@ -8,10 +8,10 @@
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
         <label for="" class="form-label">Donor id</label>
-       <input type="text" class="form-control">
+       <input type="text" name="donorId" [(ngModel)]="donorId" class="form-control">
         </div>
     <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-        <button class="btn btn-info">Delete</button>
+        <button class="btn btn-info" (click)="readValue()">Delete</button>
         <br><br>
     </div>
    
